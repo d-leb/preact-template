@@ -45,7 +45,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.47.0"],\
             ["@typescript-eslint/parser", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.47.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.34"],\
-            ["browserlist", "npm:1.0.1"],\
             ["compression-webpack-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:10.0.0"],\
             ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1"],\
             ["eslint", "npm:8.30.0"],\
@@ -4287,16 +4286,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browser-stdout-npm-1.3.1-6b2376bf3f-b717b19b25.zip/node_modules/browser-stdout/",\
           "packageDependencies": [\
             ["browser-stdout", "npm:1.3.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["browserlist", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "./.yarn/cache/browserlist-npm-1.0.1-5c12c77f80-db4dc273b5.zip/node_modules/browserlist/",\
-          "packageDependencies": [\
-            ["browserlist", "npm:1.0.1"],\
-            ["chalk", "npm:2.4.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11038,7 +11027,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.47.0"],\
             ["@typescript-eslint/parser", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:5.47.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.34"],\
-            ["browserlist", "npm:1.0.1"],\
             ["compression-webpack-plugin", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:10.0.0"],\
             ["dotenv-webpack", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:8.0.1"],\
             ["eslint", "npm:8.30.0"],\
