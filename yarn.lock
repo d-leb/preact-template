@@ -8448,15 +8448,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-sorting@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "postcss-sorting@npm:7.0.1"
-  peerDependencies:
-    postcss: ^8.3.9
-  checksum: 79cca6703ef7c60ea913c3bfb91f85bd7adce35e60b834a40cadd1c7e18f37961d63f0e641387651ee3bf1df1996e952d8fe443f93a271aa2d23f239ea3145bc
-  languageName: node
-  linkType: hard
-
 "postcss-syntax@npm:^0.36.2":
   version: 0.36.2
   resolution: "postcss-syntax@npm:0.36.2"
@@ -8470,17 +8461,6 @@ __metadata:
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
   checksum: 819ffab0c9d51cf0acbabf8996dffbfafbafa57afc0e4c98db88b67f2094cb44488758f06e5da95d7036f19556a4a732525e84289a425f4f6fd8e412a9d7442f
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.3.11":
-  version: 8.4.14
-  resolution: "postcss@npm:8.4.14"
-  dependencies:
-    nanoid: ^3.3.4
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: fe58766ff32e4becf65a7d57678995cfd239df6deed2fe0557f038b47c94e4132e7e5f68b5aa820c13adfec32e523b693efaeb65798efb995ce49ccd83953816
   languageName: node
   linkType: hard
 
@@ -8869,7 +8849,6 @@ __metadata:
     rimraf: ^3.0.2
     styled-components: ^5.3.6
     stylelint: ^14.16.0
-    stylelint-config-concentric-order: ^5.1.0
     stylelint-config-prettier: ^9.0.4
     stylelint-config-recommended-scss: ^8.0.0
     stylelint-config-standard-scss: ^6.1.0
@@ -9840,15 +9819,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-concentric-order@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "stylelint-config-concentric-order@npm:5.1.0"
-  dependencies:
-    stylelint-order: ^5.0.0
-  checksum: 47e4923cdc2cd0cd2f4abfa12a99fed0faf8692c1571e9e6f4796b71a82d45eb91f9001399f5e15a920ca15fa7ccc8fc72c3073a876da320895c8610e9a51256
-  languageName: node
-  linkType: hard
-
 "stylelint-config-prettier@npm:^9.0.4":
   version: 9.0.4
   resolution: "stylelint-config-prettier@npm:9.0.4"
@@ -9911,18 +9881,6 @@ __metadata:
   peerDependencies:
     stylelint: ^14.14.0
   checksum: 9540e5153383e5aa477d36b7a191b8768cb584d91de4382926be9c0c12863ca9235d45b87d663b27aef11610c9d6c6666536f86cc843eb36e4fdada0b4749376
-  languageName: node
-  linkType: hard
-
-"stylelint-order@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "stylelint-order@npm:5.0.0"
-  dependencies:
-    postcss: ^8.3.11
-    postcss-sorting: ^7.0.1
-  peerDependencies:
-    stylelint: ^14.0.0
-  checksum: fa3ace3cc65486b9f94165603bd04983636fda5ac959cd29bf87847a95b32f366b16faf612bd49e3b9f96073f8fe28a22a5c5727cc08c8f9d7327c89084b3f30
   languageName: node
   linkType: hard
 
