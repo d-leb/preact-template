@@ -1074,7 +1074,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@csstools/selector-specificity", "virtual:61a21e2bd2d0674256f84cc5567893421944d57eb900a0fd5af8e5dc00b5e676bf5761a9d8238c8be80a2e97107aa9de0943db4917666e41b9b25efa469182c5#npm:2.0.2"],\
             ["@types/postcss", null],\
             ["@types/postcss-selector-parser", null],\
-            ["postcss", "npm:8.4.19"],\
+            ["postcss", "npm:8.4.20"],\
             ["postcss-selector-parser", "npm:6.0.11"]\
           ],\
           "packagePeers": [\
@@ -10141,16 +10141,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss", [\
-        ["npm:8.4.19", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.19-164042496a-62782723a3.zip/node_modules/postcss/",\
-          "packageDependencies": [\
-            ["postcss", "npm:8.4.19"],\
-            ["nanoid", "npm:3.3.4"],\
-            ["picocolors", "npm:1.0.0"],\
-            ["source-map-js", "npm:1.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:8.4.20", {\
           "packageLocation": "./.yarn/cache/postcss-npm-8.4.20-b87cd5ecc8-1a5609ea1c.zip/node_modules/postcss/",\
           "packageDependencies": [\
@@ -10193,7 +10183,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-safe-parser", "virtual:61a21e2bd2d0674256f84cc5567893421944d57eb900a0fd5af8e5dc00b5e676bf5761a9d8238c8be80a2e97107aa9de0943db4917666e41b9b25efa469182c5#npm:6.0.0"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.19"]\
+            ["postcss", "npm:8.4.20"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -11842,6 +11832,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:14.16.0"],\
             ["@csstools/selector-specificity", "virtual:61a21e2bd2d0674256f84cc5567893421944d57eb900a0fd5af8e5dc00b5e676bf5761a9d8238c8be80a2e97107aa9de0943db4917666e41b9b25efa469182c5#npm:2.0.2"],\
             ["@stylelint/postcss-css-in-js", "virtual:66359d9038687ceed83f5e1fa567042688d210997c16386221b37b2518a39cf042e6f388195a8109a98361fa58737f422e2683f89c982bcc1dbef43871dc8011#npm:0.38.0"],\
+            ["@types/postcss", null],\
             ["@types/stylelint__postcss-css-in-js", null],\
             ["balanced-match", "npm:2.0.0"],\
             ["colord", "npm:2.9.3"],\
@@ -11865,7 +11856,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.5"],\
             ["normalize-path", "npm:3.0.0"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.19"],\
+            ["postcss", "npm:8.4.20"],\
             ["postcss-media-query-parser", "npm:0.2.3"],\
             ["postcss-resolve-nested-selector", "npm:0.1.1"],\
             ["postcss-safe-parser", "virtual:61a21e2bd2d0674256f84cc5567893421944d57eb900a0fd5af8e5dc00b5e676bf5761a9d8238c8be80a2e97107aa9de0943db4917666e41b9b25efa469182c5#npm:6.0.0"],\
@@ -11883,7 +11874,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "packagePeers": [\
             "@stylelint/postcss-css-in-js",\
-            "@types/stylelint__postcss-css-in-js"\
+            "@types/postcss",\
+            "@types/stylelint__postcss-css-in-js",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
