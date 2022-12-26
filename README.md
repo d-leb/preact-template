@@ -28,7 +28,7 @@ NodeJS is required to run commands and scripts. Both software and installation i
 
 Nvm is used as the node version manager to ensure the correct version of NodeJS is used with this project. For specific installation instructions, visit the
 [nvm-sh/nvm repo](https://github.com/nvm-sh/nvm) and follow the instructions for installation. For Windows, you will need to install Windows WSL or use the bash system installed with git and manually
-add the ~/.nvm folder to your user PATH and .bash_profile file.
+add the ~/.nvm folder to your user PATH and .bash_profile file. If you choose to not use nvm, you will need to manually install the correct version of NodeJS.
 
 Yarn is used as the package manager and to initiate scripts. You can install Yarn globably by running the command below after you have NodeJS installed.
 
@@ -116,9 +116,6 @@ If issues are found, you may try to automatically correct the issues.
 yarn stylelint:fix
 ```
 
-NOTE: Stylelint for this project template has been set up to follow a concentric pattern. Meaning that CSS properties are ordered by outer most properties first and move toward the inner most
-properties. [Concentric CSS](https://rhodesmill.org/brandon/2011/concentric-css/)
-
 Code formatting can be manually verified using prettier.
 
 ```
@@ -183,7 +180,7 @@ Create an .env file to store your environment variables.
 ## Built With
 
 - [Axe-Core](https://www.deque.com/axe/) - Accessibility testing tools
-- [Browserlist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
+- [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
