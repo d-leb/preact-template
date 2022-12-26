@@ -24,7 +24,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "types": ["jest", "mocha", "node"]
+    "types": ["node"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]

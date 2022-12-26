@@ -3,8 +3,8 @@
 A template for creating a new ReactJS project. It is a working project template, meaning that it will change over time. To use this template, simply copy the entire contents of the project minus
 the ```.git``` directory. If you do not want to use the bundled Github automation scripts, you can delete the ```.github``` directory.
 
-Until SWC supports modules using yarn 3.x pnp resolution, SWC plugin support will require the node linker to be set to use node module resolution. This includes Jest testing as Jest uses the
-@swc/jest plugin when transforming. Instructions on enabling node module resolution can be found in the [Installing section](#installing) of this README.
+Until SWC supports modules using yarn 3.x pnp resolution, SWC plugin support will require the node linker to be set to use node module resolution. Instructions on enabling node module resolution
+can be found in the [Installing section](#installing) of this README.
 
 When using this template, please be sure to custom tailer it to your needs. For example, if you do not need global internationalization support used for text in a global template or your web app
 title and metadata, move the MessageProvider from the GlobalProviders to the individual page providers. This cause the internationalization module to be asynchronously loaded after the page template
@@ -52,7 +52,7 @@ Setup package dependencies. By default, this will install package dependencies u
 yarn install
 ```
 
-If you require SWC plugin support, which is required by Jest, you will need to set the linker to use node module resolution. This is done by running the following commands.
+If you require SWC plugin support, you will need to set the linker to use node module resolution. This is done by running the following commands.
 
 ```
 yarn modules:enable
@@ -142,15 +142,6 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-Manually run Jest tests that include react component (integration level) and axe (accessibility) test. NOTE: This requires SWC plugin support. See [Installing section](#installing) for enabling 
-node module resolution if you haven't already.
-
-```
-yarn jest
-```
-
-**NOTE:** If you want jest tests to be run locally as part of the review, you will need to update the test script in the package.json file to include ```yarn jest```.
-
 ### Bundle and Chunk management
 
 Chunk and module sizes and entry points can be examined.
@@ -184,7 +175,6 @@ Create an .env file to store your environment variables.
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
-- [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans) - Font designed with an upright stress, open forms and a neutral, yet friendly appearance
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
@@ -192,7 +182,6 @@ Create an .env file to store your environment variables.
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
 - [Stylelint](https://stylelint.io/) - CSS quality inspector
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
