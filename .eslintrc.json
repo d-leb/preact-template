@@ -48,16 +48,7 @@
       "ts": "never",
       "tsx": "never"
     }],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": [
-          "**/testing-library.ts",
-          "**/*.test.ts",
-          "**/*.test.tsx"
-        ]
-      }
-    ],
+    "import/no-extraneous-dependencies": "error",
     "import/order": 1,
     "import/prefer-default-export": 0,
     "max-len": [
