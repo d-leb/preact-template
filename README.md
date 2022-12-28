@@ -84,64 +84,6 @@ Github will automatically run each of the following tests before allowing a PR t
 yarn review
 ```
 
-### Code quality tests
-
-All code quality tests can be run using the lint script.
-
-```
-yarn lint
-```
-
-Code quality is verified using ESLint.
-
-```
-yarn eslint
-```
-
-If issues are found, you may try to automatically correct the issues.
-
-```
-yarn eslint:fix
-```
-
-Code quality for CSS styles are verified using Stylelint.
-
-```
-yarn stylelint
-```
-
-If issues are found, you may try to automatically correct the issues.
-
-```
-yarn stylelint:fix
-```
-
-Code formatting can be manually verified using prettier.
-
-```
-yarn prettier
-```
-
-If issues are found, you may try to automatically correct the issues.
-
-```
-yarn prettier:fix
-```
-
-### Test coverage (Integration and Unit)
-
-All tests can be run using the test script.
-
-```
-yarn test
-```
-
-You can manually check TypeScript types and syntax.
-
-```
-yarn tsc
-```
-
 ### Bundle and Chunk management
 
 Chunk and module sizes and entry points can be examined.
@@ -173,7 +115,6 @@ Create an .env file to store your environment variables.
 - [Axe-Core](https://www.deque.com/axe/) - Accessibility testing tools
 - [Browserslist](https://github.com/browserslist/browserslist) - Used to determine the browser support for a project
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
-- [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans) - Font designed with an upright stress, open forms and a neutral, yet friendly appearance
 - [Prettier](https://prettier.io/) - An opinionated code formatter
@@ -183,7 +124,6 @@ Create an .env file to store your environment variables.
 - [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [Styled-Components](https://styled-components.com/) - CSS component system
-- [Stylelint](https://stylelint.io/) - CSS quality inspector
 - [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Webpack](https://webpack.js.org/) - Static module bundler
