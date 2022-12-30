@@ -4312,7 +4312,6 @@ __metadata:
     react-is: ^18.2.0
     react-responsive: ^9.0.2
     react-router-dom: ^6.6.1
-    rimraf: ^3.0.2
     styled-components: ^5.3.6
     svg-url-loader: ^8.0.0
     swc-loader: ^0.2.3

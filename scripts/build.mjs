@@ -1,4 +1,4 @@
-import rm from 'rimraf'
+import { rm } from 'fs'
 import webpack from 'webpack'
 
 import { handleError, paths } from './utils.mjs'
@@ -9,22 +9,29 @@ console.log('...Begin build\n')
 
 const webpackConfig = buildWebpackConfig(paths)
 
-rm(paths.build, (rmError) => {
-  handleError(rmError)
+rm(
+  paths.build,
+  {
+    force: true,
+    recursive: true,
+  },
+  (rmError) => {
+    handleError(rmError)
 
-  webpack(webpackConfig, (webpackError, stats) => {
-    handleError(webpackError)
+    webpack(webpackConfig, (webpackError, stats) => {
+      handleError(webpackError)
 
-    process.stdout.write(
-      `${stats.toString({
-        colors: true,
-        modules: false,
-        children: false,
-        chunks: false,
-        chunkModules: false,
-      })}\n\n`
-    )
+      process.stdout.write(
+        `${stats.toString({
+          colors: true,
+          modules: false,
+          children: false,
+          chunks: false,
+          chunkModules: false,
+        })}\n\n`
+      )
 
-    console.log('...Build complete\n')
-  })
-})
+      console.log('...Build complete\n')
+    })
+  }
+)
