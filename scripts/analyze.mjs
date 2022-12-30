@@ -1,30 +1,19 @@
-import ora from 'ora'
 import rm from 'rimraf'
 import webpack from 'webpack'
 
-import { paths } from './utils.mjs'
+import { handleError, paths } from './utils.mjs'
 import { buildWebpackAnalyzeConfig } from '../config/webpack.analyze.config.mjs'
 
-console.log('Begin build...')
-
-const spinner = ora('Building for analysis...\n')
-spinner.start()
+console.log('\nBuilding for analysis...\n')
+console.log('...Begin build\n')
 
 const webpackConfig = buildWebpackAnalyzeConfig(paths)
 
 rm(paths.build, (rmError) => {
-  if (rmError) {
-    throw rmError
-  }
+  handleError(rmError)
 
   webpack(webpackConfig, (webpackError, stats) => {
-    spinner.stop()
-
-    if (webpackError) {
-      throw webpackError
-    }
-
-    console.log('Build complete.\n')
+    handleError(webpackError)
 
     process.stdout.write(
       `${stats.toString({
@@ -35,5 +24,7 @@ rm(paths.build, (rmError) => {
         chunkModules: false,
       })}\n\n`
     )
+
+    console.log('...Build complete\n')
   })
 })
