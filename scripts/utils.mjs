@@ -16,3 +16,13 @@ export const paths = {
 export const files = {
   yarnrc: path.join(__dirname, '../.yarnrc.yml'),
 }
+
+const errorColor = '\x1b[31m'
+const defaultColor = '\x1b[0m'
+
+export const handleError = (error) => {
+  if (error) {
+    console.error(`${errorColor}An error occurred:${defaultColor}\n`)
+    throw error
+  }
+}
