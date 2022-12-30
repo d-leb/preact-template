@@ -1,5 +1,4 @@
-import { readFile, writeFile } from 'fs'
-import rm from 'rimraf'
+import { readFile, rm, writeFile } from 'fs'
 
 import { files, handleError, paths } from './utils.mjs'
 
@@ -39,10 +38,19 @@ const toggleNodeModules = (enable) => {
 
       if (!enable) {
         console.log('Removing node_modules directory...')
-        rm(paths.nodeModules, (rmError) => {
-          handleError(rmError)
-          console.log('   removed.')
-        })
+        rm(
+          paths.nodeModules,
+          {
+            force: true,
+            recursive: true,
+          },
+          (rmError) => {
+            handleError(rmError)
+            if (!rmError) {
+              console.log('   removed.')
+            }
+          }
+        )
       }
     })
   })
