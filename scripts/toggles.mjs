@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'fs'
 import rm from 'rimraf'
 
-import { files, paths } from './utils.mjs'
+import { files, handleError, paths } from './utils.mjs'
 
 const args = process.argv.slice(2)
 const [toggleItem, state] = args
@@ -13,9 +13,7 @@ if (!isEnable && state !== 'disable') {
 
 const toggleNodeModules = (enable) => {
   readFile(files.yarnrc, (readError, fileData) => {
-    if (readError) {
-      throw readError
-    }
+    handleError(readError)
 
     const matchEnabled = 'nodeLinker: node-modules'
     const matchDisabled = '# nodeLinker: node-modules'
@@ -36,17 +34,13 @@ const toggleNodeModules = (enable) => {
     const newFileData = prevFileData.replace(RegExp(matchString, 'g'), replaceString)
     console.log('Updating yarnrc...')
     writeFile(files.yarnrc, newFileData, (writeError) => {
-      if (writeError) {
-        throw writeError
-      }
+      handleError(writeError)
       console.log('   updated.')
 
       if (!enable) {
         console.log('Removing node_modules directory...')
         rm(paths.nodeModules, (rmError) => {
-          if (rmError) {
-            throw rmError
-          }
+          handleError(rmError)
           console.log('   removed.')
         })
       }
