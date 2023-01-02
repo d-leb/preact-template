@@ -7,10 +7,11 @@
   "repository": "git@github.com:d-leb/react-template",
   "packageManager": "yarn@3.3.1",
   "scripts": {
-    "analyze": "node scripts/analyze.mjs",
-    "build": "node scripts/build.mjs",
+    "analyze": "swc-webpack analyze",
+    "build": "swc-webpack build",
+    "defaults": "swc-webpack defaults",
     "review": "yarn build",
-    "start": "node scripts/start.mjs"
+    "start": "swc-webpack start"
   },
   "dependencies": {
     "@axe-core/react": "^4.5.2",
@@ -26,6 +27,7 @@
     "web-vitals": "^3.1.0"
   },
   "devDependencies": {
+    "@d-leb/swc-webpack": "^0.1.5",
     "@swc/core": "^1.3.24",
     "@swc/helpers": "^0.4.14",
     "@types/react": "^18.0.26",
