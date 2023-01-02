@@ -4,7 +4,10 @@
   "description": "A template for creating a new ReactJS project",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
-  "repository": "git@github.com:d-leb/react-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-leb/react-template.git"
+  },
   "packageManager": "yarn@3.3.1",
   "scripts": {
     "analyze": "swc-webpack analyze",
