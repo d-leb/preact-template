@@ -1,12 +1,12 @@
 {
-  "name": "react-template",
-  "version": "1.0.193",
-  "description": "A template for creating a new ReactJS project",
+  "name": "swc-template-react-simple",
+  "version": "2.0.0",
+  "description": "A @d-leb/swc-webpack template for a simple ReactJS project with various basic libraries and tools pre-configured",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d-leb/react-template.git"
+    "url": "https://github.com/d-leb/swc-template-react-simple.git"
   },
   "packageManager": "yarn@3.3.1",
   "scripts": {
