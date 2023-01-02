@@ -15,10 +15,12 @@
     "lint": "yarn eslint && yarn stylelint && yarn prettier",
     "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
-    "review": "yarn lint && yarn build",
+    "review": "yarn lint && yarn test && yarn build",
     "start": "swc-webpack start",
     "stylelint": "stylelint \"src/**/*.ts?\"",
-    "stylelint:fix": "stylelint \"src/**/*.ts?\" --fix"
+    "stylelint:fix": "stylelint \"src/**/*.ts?\" --fix",
+    "test": "yarn tsc",
+    "tsc": "tsc"
   },
   "dependencies": {
     "@axe-core/react": "^4.5.2",
