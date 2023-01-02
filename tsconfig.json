@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "rootDir": "src",
-    "target": "ES6",
+    "target": "ES2015",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,13 +18,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "types": ["jest", "mocha", "node"]
+    "jsx": "preserve"
   },
   "include": ["src"],
   "exclude": ["node_modules"]

@@ -1,22 +1,14 @@
-# react-template
+# swc-template-react-simple
 
-A template for creating a new ReactJS project. It is a working project template, meaning that it will change over time. To use this template, simply copy the entire contents of the project minus
-the ```.git``` directory. If you do not want to use the bundled Github automation scripts, you can delete the ```.github``` directory.
-
-Until SWC supports modules using yarn 3.x pnp resolution, SWC plugin support will require the node linker to be set to use node module resolution. This includes Jest testing as Jest uses the
-@swc/jest plugin when transforming. Instructions on enabling node module resolution can be found in the [Installing section](#installing) of this README.
-
-When using this template, please be sure to custom tailer it to your needs. For example, if you do not need global internationalization support used for text in a global template or your web app
-title and metadata, move the MessageProvider from the GlobalProviders to the individual page providers. This cause the internationalization module to be asynchronously loaded after the page template
-is displayed. If your page template does not change geometry, which it usually should not, then this will give a better loading experience to first time users as it shaves off time on the first
-visit.
+A @d-leb/swc-webpack template for a simple ReactJS project with various basic libraries and tools pre-configured. To use this template, simply copy the entire contents of the project minus
+the ```.git``` and ```.github``` directories.
 
 If you find that you don't need a particular library remove it from your project. Simple projects do not need react-intl support. Do not forget to use ```yarn analyze``` to identify which libraries
-are taking up the most space. Finally, when removing a library that is bundled into the main entry point, be sure to reduce the main entry point max size in the ```webpack.prod.config.mjs``` file.
-If you add additional libraries to your own project, I would suggest using React's lazy load or an asynchronous import from a major page section, rather than the App or GlobalProviders component.
-This will allow the page to load faster and load libraries into the web browser as needed.
+are taking up the most space. Finally, when removing a library that is bundled into the main entry point, be sure to reduce the main entry point max size in the
+```.swc-webpack/webpack.prod.config.mjs``` file. If you add additional libraries to your own project, I would suggest using React's lazy load or an asynchronous import from a major page section,
+rather than the App or GlobalProviders component. This will allow the page to load faster and load libraries into the web browser as needed.
 
-If you have suggestions or have any problems, please open an issue on the [d-leb/react-template issues board](https://github.com/d-leb/react-template/issues).
+If you have suggestions or have any problems, please open an issue on the [d-leb/swc-template-react-simple issues board](https://github.com/d-leb/swc-template-react-simple/issues).
 
 ## Getting Started
 
@@ -49,20 +41,6 @@ npm install -g npm
 Setup package dependencies. By default, this will install package dependencies using yarn pnp resolution.
 
 ```
-yarn install
-```
-
-If you require SWC plugin support, which is required by Jest, you will need to set the linker to use node module resolution. This is done by running the following commands.
-
-```
-yarn modules:enable
-yarn install
-```
-
-If you find yourself no longer needing SWC plugin support, you can disable node module resolution by running the following commands.
-
-```
-yarn modules:disable
 yarn install
 ```
 
@@ -142,14 +120,7 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-Manually run Jest tests that include react component (integration level) and axe (accessibility) test. NOTE: This requires SWC plugin support. See [Installing section](#installing) for enabling 
-node module resolution if you haven't already.
-
-```
-yarn jest
-```
-
-**NOTE:** If you want jest tests to be run locally as part of the review, you will need to update the test script in the package.json file to include ```yarn jest```.
+***NOTE:*** Jest test coverage with react testing library will be re-implemented in a near future update.
 
 ### Bundle and Chunk management
 
@@ -184,7 +155,6 @@ Create an .env file to store your environment variables.
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
-- [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans) - Font designed with an upright stress, open forms and a neutral, yet friendly appearance
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
@@ -192,12 +162,9 @@ Create an .env file to store your environment variables.
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
-- [Stylelint](https://stylelint.io/) - CSS quality inspector
-- [SWC](https://swc.rs/) - SWC is an extensible Rust-based platform used for both compilation and bundling
+- [SWC-Webpack](https://github.com/d-leb/swc-webpack) - A library for compiling TypeScript and JavaScript using SWC and Webpack
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
-- [Webpack](https://webpack.js.org/) - Static module bundler
 - [Yarn](https://yarnpkg.com/) - Package management
 
 ## Sample APIs and Libraries
@@ -214,7 +181,7 @@ Patch level is automatically updated on every merge into the develop branch.
 
 - **David LeBlanc** - _Initial work_ - [d-leb](https://github.com/d-leb)
 
-See also the list of [contributors](https://github.com/d-leb/react-template/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/d-leb/swc-template-react-simple/graphs/contributors) who participated in this project.
 
 ## License
 
