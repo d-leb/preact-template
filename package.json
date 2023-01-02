@@ -9,8 +9,6 @@
   "scripts": {
     "analyze": "node scripts/analyze.mjs",
     "build": "node scripts/build.mjs",
-    "modules:disable": "node scripts/toggles.mjs node_modules disable",
-    "modules:enable": "node scripts/toggles.mjs node_modules enable",
     "review": "yarn build",
     "start": "node scripts/start.mjs"
   },
@@ -34,7 +32,6 @@
     "@types/react-dom": "^18.0.10",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.26",
-    "@yarnpkg/sdks": "^3.0.0-rc.34",
     "browserslist": "^4.21.4",
     "compression-webpack-plugin": "^10.0.0",
     "dotenv-webpack": "^8.0.1",
