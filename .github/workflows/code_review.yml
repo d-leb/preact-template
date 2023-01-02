@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: 16
           cache: yarn
-      - run: yarn modules:enable
       - run: yarn install --immutable
       - uses: actions/cache@v3
         with:
@@ -23,6 +22,22 @@ jobs:
             .yarn
             node_modules
           key: ${{ runner.os }}-${{ github.run_number }}
+  lint:
+    runs-on: ubuntu-latest
+    needs: cache
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - uses: actions/cache@v3
+        with:
+          path: |
+            .yarn
+            node_modules
+          key: ${{ runner.os }}-${{ github.run_number }}
+      - run: yarn install --immutable
+      - run: yarn lint
   build:
     runs-on: ubuntu-latest
     needs: cache
@@ -37,6 +52,5 @@ jobs:
             .yarn
             node_modules
           key: ${{ runner.os }}-${{ github.run_number }}
-      - run: yarn modules:enable
       - run: yarn install --immutable
       - run: yarn build

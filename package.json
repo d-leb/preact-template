@@ -10,7 +10,10 @@
     "analyze": "swc-webpack analyze",
     "build": "swc-webpack build",
     "defaults": "swc-webpack defaults",
-    "review": "yarn build",
+    "lint": "yarn prettier",
+    "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
+    "review": "yarn lint && yarn build",
     "start": "swc-webpack start"
   },
   "dependencies": {
@@ -32,6 +35,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.26",
+    "prettier": "^2.8.1",
     "typescript": "^4.9.4"
   }
 }
