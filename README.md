@@ -120,7 +120,11 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-***NOTE:*** Jest test coverage with react testing library will be re-implemented in a near future update.
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+
+```
+yarn jest
+```
 
 ### Bundle and Chunk management
 
@@ -155,6 +159,7 @@ Create an .env file to store your environment variables.
 - [DotEnv Webpack](https://github.com/mrsteele/dotenv-webpack/) - Environment variables webpack plugin
 - [ESLint](https://eslint.org/) - Code quality inspector
 - [FormatJS](https://formatjs.io/) - Internationalization libraries (react-intl)
+- [Jest](https://jestjs.io/) - JavaScript testing framework
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans) - Font designed with an upright stress, open forms and a neutral, yet friendly appearance
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
@@ -162,6 +167,7 @@ Create an .env file to store your environment variables.
 - [React Helmet Async](https://github.com/staylor/react-helmet-async) - Document head manager
 - [React Responsive](https://github.com/contra/react-responsive) - React media query module for responsive design
 - [React Router](https://reactrouter.com/) - Routing and navigation library
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
 - [SWC-Webpack](https://github.com/d-leb/swc-webpack) - A library for compiling TypeScript and JavaScript using SWC and Webpack
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
