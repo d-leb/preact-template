@@ -8,6 +8,8 @@ interface MessagesCollection {
   [locale: string]: Messages
 }
 
+export const testMessages: Messages = enMesages
+
 const getLocale = () => navigator.language.split(/[-_]/)[0]
 
 const loadMessages = (locale: string): Promise<Messages> =>

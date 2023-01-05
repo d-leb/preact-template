@@ -15,6 +15,7 @@
     "defaults": "swc-webpack defaults",
     "eslint": "eslint --ext ts,tsx src --max-warnings=0",
     "eslint:fix": "eslint --ext ts,tsx src --fix",
+    "jest": "jest",
     "lint": "yarn eslint && yarn stylelint && yarn prettier",
     "prettier": "prettier --check 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'",
@@ -22,7 +23,7 @@
     "start": "swc-webpack start",
     "stylelint": "stylelint \"src/**/*.ts?\"",
     "stylelint:fix": "stylelint \"src/**/*.ts?\" --fix",
-    "test": "yarn tsc",
+    "test": "yarn tsc && yarn jest",
     "tsc": "tsc"
   },
   "dependencies": {

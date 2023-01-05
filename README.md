@@ -120,7 +120,11 @@ You can manually check TypeScript types and syntax.
 yarn tsc
 ```
 
-***NOTE:*** Jest test coverage with react testing library will be re-implemented in a near future update.
+Manually run Jest tests that include react component (integration level) and axe (accessibility) test.
+
+```
+yarn jest
+```
 
 ### Bundle and Chunk management
 
