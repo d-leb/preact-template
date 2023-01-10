@@ -1,6 +1,6 @@
 {
   "name": "swc-template-react-simple",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "A @d-leb/swc-webpack template for a simple ReactJS project with various basic libraries and tools pre-configured",
   "author": "David LeBlanc <github@david-leblanc.com>",
   "license": "MIT",
