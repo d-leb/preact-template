@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@d-leb/swc-webpack": "^1.2.1",
-    "@jest/globals": "^29.3.1",
+    "@jest/globals": "^29.4.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@swc/jest": "^0.2.24",
     "@testing-library/react": "^13.4.0",
