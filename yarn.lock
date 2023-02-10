@@ -64,29 +64,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.17.9":
-  version: 7.20.7
-  resolution: "@babel/core@npm:7.20.7"
-  dependencies:
-    "@ampproject/remapping": ^2.1.0
-    "@babel/code-frame": ^7.18.6
-    "@babel/generator": ^7.20.7
-    "@babel/helper-compilation-targets": ^7.20.7
-    "@babel/helper-module-transforms": ^7.20.7
-    "@babel/helpers": ^7.20.7
-    "@babel/parser": ^7.20.7
-    "@babel/template": ^7.20.7
-    "@babel/traverse": ^7.20.7
-    "@babel/types": ^7.20.7
-    convert-source-map: ^1.7.0
-    debug: ^4.1.0
-    gensync: ^1.0.0-beta.2
-    json5: ^2.2.1
-    semver: ^6.3.0
-  checksum: f2714f15db24425145ca70b838adcd945aba7d1358ca2513615db6c3bdaebe5f8e4162c4c6c30f8dcab42bf634b0055d150414c0ecf52a3341bb5da3dde2d987
-  languageName: node
-  linkType: hard
-
 "@babel/generator@npm:^7.18.10":
   version: 7.18.10
   resolution: "@babel/generator@npm:7.18.10"
@@ -178,7 +155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.20.11, @babel/helper-module-transforms@npm:^7.20.7":
+"@babel/helper-module-transforms@npm:^7.20.11":
   version: 7.20.11
   resolution: "@babel/helper-module-transforms@npm:7.20.11"
   dependencies:
@@ -1241,18 +1218,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^2.0.0
   checksum: c62aa98e7cefda8dedc101ce227abc888dc46b8ff9706c5f0a8dfd9c3ada97d0a5611384738d9ba0b26b59f99c2ba24efece8e779bb08329e9e87358fa309824
-  languageName: node
-  linkType: hard
-
-"@stylelint/postcss-css-in-js@npm:^0.38.0":
-  version: 0.38.0
-  resolution: "@stylelint/postcss-css-in-js@npm:0.38.0"
-  dependencies:
-    "@babel/core": ^7.17.9
-  peerDependencies:
-    postcss: ">=7.0.0"
-    postcss-syntax: ">=0.36.2"
-  checksum: efb32b4aab38a8fcebc07a26bc49afe92e3d9dea63547fd4bb7e2a4a42c4f7534173e696ba61f5e4030961081f210ae52aea3b4829a2fe67acd3c9dc14c91b0f
   languageName: node
   linkType: hard
 
@@ -6448,7 +6413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2, json5@npm:^2.2.1, json5@npm:^2.2.2":
+"json5@npm:^2.1.2, json5@npm:^2.2.2":
   version: 2.2.3
   resolution: "json5@npm:2.2.3"
   bin:
@@ -7589,15 +7554,6 @@ __metadata:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
   checksum: 0b01aa9c2d2c8dbeb51e9b204796b678284be9823abc8d6d40a8b16d4149514e922c264a8ed4deb4d6dbced564b9be390f5942c058582d8656351516d6c49cde
-  languageName: node
-  linkType: hard
-
-"postcss-syntax@npm:^0.36.2":
-  version: 0.36.2
-  resolution: "postcss-syntax@npm:0.36.2"
-  peerDependencies:
-    postcss: ">=5.0.0"
-  checksum: 812baee602910903b8b77391583721613951d87dbc8baff140879069ff98423392675c4ddfdf073418f4a699ee5d4dd020914bad07504c62f9f333211bf979b8
   languageName: node
   linkType: hard
 
@@ -9040,7 +8996,6 @@ __metadata:
     "@axe-core/react": ^4.6.0
     "@d-leb/swc-webpack": ^1.2.7
     "@jest/globals": ^29.4.2
-    "@stylelint/postcss-css-in-js": ^0.38.0
     "@swc/jest": ^0.2.24
     "@tanstack/react-query": ^4.24.4
     "@testing-library/react": ^13.4.0
@@ -9062,7 +9017,6 @@ __metadata:
     jest: ^29.4.2
     jest-environment-jsdom: ^29.4.2
     postcss: ^8.4.21
-    postcss-syntax: ^0.36.2
     prettier: ^2.8.4
     react: ^18.2.0
     react-dom: ^18.2.0
