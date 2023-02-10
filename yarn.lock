@@ -2065,7 +2065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:5.51.0":
+"@typescript-eslint/typescript-estree@npm:5.51.0, @typescript-eslint/typescript-estree@npm:^5.47.0":
   version: 5.51.0
   resolution: "@typescript-eslint/typescript-estree@npm:5.51.0"
   dependencies:
@@ -4389,6 +4389,13 @@ __metadata:
   version: 5.3.0
   resolution: "estraverse@npm:5.3.0"
   checksum: 072780882dc8416ad144f8fe199628d2b3e7bbc9989d9ed43795d2c90309a2047e6bc5979d7e2322a341163d22cfad9e21f4110597fe487519697389497e4e2b
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
   languageName: node
   linkType: hard
 
@@ -7557,6 +7564,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-styled-syntax@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "postcss-styled-syntax@npm:0.3.1"
+  dependencies:
+    "@typescript-eslint/typescript-estree": ^5.47.0
+    estree-walker: ^2.0.2
+  peerDependencies:
+    postcss: ^8.4.21
+  checksum: 79e1fa3e9e6b665c4c3c5af4bfd69d300b90497b1d6c88b18ce4a90ccbeefcfa1332924e0dbe74e9e78bc0db391d1e90a8c28dd0b2d194b7737d6f4c20142097
+  languageName: node
+  linkType: hard
+
 "postcss-value-parser@npm:^4.0.2, postcss-value-parser@npm:^4.1.0, postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
@@ -9017,6 +9036,7 @@ __metadata:
     jest: ^29.4.2
     jest-environment-jsdom: ^29.4.2
     postcss: ^8.4.21
+    postcss-styled-syntax: ^0.3.1
     prettier: ^2.8.4
     react: ^18.2.0
     react-dom: ^18.2.0
