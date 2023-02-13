@@ -169,6 +169,7 @@ Create an .env file to store your environment variables.
 - [React Router](https://reactrouter.com/) - Routing and navigation library
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - API Library for React components
 - [Styled-Components](https://styled-components.com/) - CSS component system
+- [Stylelint](https://stylelint.io/) - A mighty CSS linter that helps you avoid errors and enforce conventions
 - [SWC-Webpack](https://github.com/d-leb/swc-webpack) - A library for compiling TypeScript and JavaScript using SWC and Webpack
 - [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript language
 - [Yarn](https://yarnpkg.com/) - Package management
