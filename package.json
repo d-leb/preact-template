@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@d-leb/swc-webpack": "^1.2.7",
-    "@jest/globals": "^29.4.2",
+    "@jest/globals": "^29.4.3",
     "@swc/jest": "^0.2.24",
     "@testing-library/react": "^13.4.0",
     "@types/mocha": "^10.0.1",
