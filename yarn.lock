@@ -8893,6 +8893,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"stylelint-config-recommended-scss@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "stylelint-config-recommended-scss@npm:9.0.1"
+  dependencies:
+    postcss-scss: ^4.0.2
+    stylelint-config-recommended: ^10.0.1
+    stylelint-scss: ^4.4.0
+  peerDependencies:
+    postcss: ^8.3.3
+    stylelint: ^15.0.0
+  peerDependenciesMeta:
+    postcss:
+      optional: true
+  checksum: 1dd358947dbf350ecc45855b700ed38349b69e3e6d9ceacbd2006fd45a0b46c96805c76e4944fdabb8a49fbc0e0986477f89ce08fe3cb50cd3057e688a803478
+  languageName: node
+  linkType: hard
+
 "stylelint-config-recommended@npm:^10.0.1":
   version: 10.0.1
   resolution: "stylelint-config-recommended@npm:10.0.1"
@@ -9107,7 +9124,7 @@ __metadata:
     react-router-dom: ^6.8.1
     styled-components: ^5.3.6
     stylelint: ^15.1.0
-    stylelint-config-recommended-scss: ^9.0.0
+    stylelint-config-recommended-scss: ^9.0.1
     stylelint-config-standard-scss: ^7.0.1
     typescript: ^4.9.5
     web-vitals: ^3.1.1
