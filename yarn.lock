@@ -7642,15 +7642,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-styled-syntax@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "postcss-styled-syntax@npm:0.3.1"
+"postcss-styled-syntax@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "postcss-styled-syntax@npm:0.3.2"
   dependencies:
     "@typescript-eslint/typescript-estree": ^5.47.0
     estree-walker: ^2.0.2
   peerDependencies:
     postcss: ^8.4.21
-  checksum: 79e1fa3e9e6b665c4c3c5af4bfd69d300b90497b1d6c88b18ce4a90ccbeefcfa1332924e0dbe74e9e78bc0db391d1e90a8c28dd0b2d194b7737d6f4c20142097
+  checksum: d91b0784218facff2513d88d2ce1f9cd03eff539034db984e12465e6f1db279ed42b99e9a8cde8a1997e6e2f6876f8e9b3ee0c269308d265ae96aad9dd17dbe3
   languageName: node
   linkType: hard
 
@@ -9112,7 +9112,7 @@ __metadata:
     jest: ^29.4.3
     jest-environment-jsdom: ^29.4.3
     postcss: ^8.4.21
-    postcss-styled-syntax: ^0.3.1
+    postcss-styled-syntax: ^0.3.2
     prettier: ^2.8.4
     react: ^18.2.0
     react-dom: ^18.2.0
