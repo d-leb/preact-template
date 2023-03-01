@@ -40,7 +40,7 @@
     "web-vitals": "^3.1.1"
   },
   "devDependencies": {
-    "@d-leb/swc-webpack": "^1.2.7",
+    "@d-leb/swc-webpack": "^1.2.15",
     "@jest/globals": "^29.4.3",
     "@swc/jest": "^0.2.24",
     "@testing-library/react": "^14.0.0",
