@@ -7903,9 +7903,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intl@npm:^6.2.10":
-  version: 6.2.10
-  resolution: "react-intl@npm:6.2.10"
+"react-intl@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "react-intl@npm:6.3.0"
   dependencies:
     "@formatjs/ecma402-abstract": 1.14.3
     "@formatjs/icu-messageformat-parser": 2.3.0
@@ -7923,7 +7923,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: a86e87c2cbb5c7cb1cae9db11fa8d60d42201e6781f62a8f6a97518fa12bf63c57a21293f45f70ead426ffc8446fa063d4f6a25f805b8e1f9066f2d01d5d5455
+  checksum: 8a47baffcbcf25e0ce83bf87bf43e26ce6be82e16357292d02c40d385faf584272050c7ff88090c449aba1590988426eecac9d461310d301e66f5a0492a0cd15
   languageName: node
   linkType: hard
 
@@ -9124,7 +9124,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-helmet-async: ^1.3.0
-    react-intl: ^6.2.10
+    react-intl: ^6.3.0
     react-is: ^18.2.0
     react-responsive: ^9.0.2
     react-router-dom: ^6.9.0
