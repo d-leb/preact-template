@@ -63,7 +63,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "postcss": "^8.4.21",
     "postcss-styled-syntax": "^0.4.0",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.5",
     "stylelint": "^15.3.0",
     "stylelint-config-recommended-scss": "^9.0.1",
     "stylelint-config-standard-scss": "^7.0.1",
