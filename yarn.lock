@@ -15,13 +15,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@axe-core/react@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "@axe-core/react@npm:4.6.0"
+"@axe-core/react@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "@axe-core/react@npm:4.6.1"
   dependencies:
-    axe-core: ^4.6.1
+    axe-core: ^4.6.3
     requestidlecallback: ^0.3.0
-  checksum: 675204291d922b9a0669e041f5145e3f9f284b18080923f9c7e918622337db91e4275380608c4a43210aecd161c449eac54bb0ec46648a96468e98256b8dc101
+  checksum: eaeb359393c1e393935ba186ae966408cd2cf9a7f789105bca7c999158808dc1ed33c7350a8e0e5fa2bae4fa7bb7332d9776a7912c44a09bf33151b25ec4dd2a
   languageName: node
   linkType: hard
 
@@ -2756,17 +2756,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axe-core@npm:^4.6.1":
-  version: 4.6.3
-  resolution: "axe-core@npm:4.6.3"
-  checksum: d0c46be92b9707c48b88a53cd5f471b155a2bfc8bf6beffb514ecd14e30b4863e340b5fc4f496d82a3c562048088c1f3ff5b93b9b3b026cb9c3bfacfd535da10
-  languageName: node
-  linkType: hard
-
 "axe-core@npm:^4.6.2":
   version: 4.6.2
   resolution: "axe-core@npm:4.6.2"
   checksum: 81523eeaf101a3a129545a936d448d235ecf1f8c0daccdee224d29f63bec716fa38cf1a65c8462548b1f995624277eed790d9d9977ae40ba692c4cadf1196403
+  languageName: node
+  linkType: hard
+
+"axe-core@npm:^4.6.3":
+  version: 4.6.3
+  resolution: "axe-core@npm:4.6.3"
+  checksum: d0c46be92b9707c48b88a53cd5f471b155a2bfc8bf6beffb514ecd14e30b4863e340b5fc4f496d82a3c562048088c1f3ff5b93b9b3b026cb9c3bfacfd535da10
   languageName: node
   linkType: hard
 
@@ -9119,7 +9119,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "swc-template-react-simple@workspace:."
   dependencies:
-    "@axe-core/react": ^4.6.0
+    "@axe-core/react": ^4.6.1
     "@d-leb/swc-webpack": ^1.3.1
     "@jest/globals": ^29.5.0
     "@swc/jest": ^0.2.24
