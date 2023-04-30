@@ -68,8 +68,5 @@
     "stylelint-config-recommended-scss": "^11.0.0",
     "stylelint-config-standard-scss": "^9.0.0",
     "typescript": "^5.0.4"
-  },
-  "resolutions": {
-    "@typescript-eslint/typescript-estree": "5.59.1"
   }
 }
