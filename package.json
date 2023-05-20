@@ -27,7 +27,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@axe-core/react": "^4.6.1",
+    "@axe-core/react": "^4.7.1",
     "@tanstack/react-query": "^4.29.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
