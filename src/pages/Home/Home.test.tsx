@@ -1,4 +1,4 @@
-import { expect } from '@jest/globals'
+import { expect } from '@d-leb/swc-jest'
 import { getMessage, render, screen } from 'testing-library'
 
 import Home from './index'
