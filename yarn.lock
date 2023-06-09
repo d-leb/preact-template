@@ -612,9 +612,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@d-leb/swc-jest@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "@d-leb/swc-jest@npm:0.1.4"
+"@d-leb/swc-jest@npm:^1.3.35":
+  version: 1.3.35
+  resolution: "@d-leb/swc-jest@npm:1.3.35"
   dependencies:
     "@jest/globals": 29.5.0
     "@swc/core": 1.3.62
@@ -626,7 +626,7 @@ __metadata:
     jest-environment-jsdom: 29.5.0
   bin:
     swc-jest: bin/swc-jest.mjs
-  checksum: 8a586ed1b7cfefdebf4941946f5009da7223658621462c383fb3f7217da3def5fa26b973fbdfb6c2b6e123e045ce21aabd694c7c37872b4bebb4ad4a90a54f50
+  checksum: 9b075bef9c8722d7f63a77ec723359b4e3b46462526d367d1aee162c1e5066ba61fcae2d27990f63a375e7937935d2d597c0ffdb864db20961f8ce2c1dcb6d9c
   languageName: node
   linkType: hard
 
@@ -9007,7 +9007,7 @@ __metadata:
   resolution: "swc-template-react-simple@workspace:."
   dependencies:
     "@axe-core/react": ^4.7.2
-    "@d-leb/swc-jest": ^0.1.4
+    "@d-leb/swc-jest": ^1.3.35
     "@d-leb/swc-webpack": ^1.3.35
     "@tanstack/react-query": ^4.29.12
     "@testing-library/react": ^14.0.0
