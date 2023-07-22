@@ -1,5 +1,7 @@
 # swc-template-react-simple
 
+**This repository will no longer be maintained. If you are interested in a scaffold that uses SWC, I would suggest trying [Vite](https://github.com/vitejs/vite).**
+
 A @d-leb/swc-webpack template for a simple ReactJS project with various basic libraries and tools pre-configured. To use this template, simply copy the entire contents of the project minus
 the ```.git``` and ```.github``` directories.
 
